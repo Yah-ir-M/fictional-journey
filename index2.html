@@ -3,31 +3,74 @@
 <head>
 <meta charset="utf-8">
 <title>basic layout</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
 	<style>
 		header{
-			background-color: cornflowerblue; 
+			background-color: cornflowerblue;
+			float: center;
 		}
-		body{background-color: darkmagenta;}
+		h1{font-family: 'Mynerve', cursive;
+		
+		}
+		body{background-color: darkmagenta;
+			
+		}
 		nav{
-			width:100%;
+			width:910px;
 			height:75px;
 			background-color: burlywood;
 			
 		}
 			
-		.containter{
-			width:1200px;
-			height:960px;
+		.container{
+			width:800px;
+			height:100px;
 		background-color: darkorchid;
 			margin:0 auto;}
+			header{
+				width: 785px;
+				height: 100px;
+				background-color: violet;
 		
+		}
+		
+		section{
+			width: 815px;
+			height: 237px;
+			margin-top: 20px;
+			padding-bottom: 15px;
+			background-color: goldenrod;
+			float:right; 
 			
+		}
+			
+		article{
+			width:245px;
+			height:210px;
+			background-color: indianred;
+			float:left;
+			margin: 20px 0px 20px 20px;
+			
+		}
+		
+		
+		footer{
+			width: 815px;
+			height: 95px;
+			background-color: darkred;
+			clear:both;
+			float: right;
+		}
 	
-	
-	
-	
-	
-	
+		aside{
+			width: 200px;
+			height: 150px;
+			background-color: deeppink;
+			float: center;
+			
+		}
 	
 	
 	
@@ -36,8 +79,34 @@
 	
 	
 	</style>
+	
 </head>
 
 <body>
+	<nav></nav>
+	<div class="container">
+		<header><h1>Hello welcome to my website</h1>
+		</header>
+			<section>
+			<article class="right"></article>
+				<article class="center">
+				<p>&#128512;</p>
+				</article>
+				<article class="left"></article>
+				
+			</section>
+		
+			<section>
+			<article class="right"></article>
+				<article class="center">
+				<p>&#8706;</p>
+				</article>
+				<article class="left"></article>
+			
+		
+		</section>
+	
+	<footer><h1>This is the footer of my webpage</h1></footer>
+	</div>
 </body>
 </html>

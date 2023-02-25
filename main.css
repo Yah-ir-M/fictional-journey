@@ -9,8 +9,8 @@ header{
 		
 		}
 		body{
-			background-image:url("image/backgroundgraphic.png");
-			background-repeat: repeat;
+			
+			background-color: darkviolet
 		}
 		nav{
 			width:100%;

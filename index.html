@@ -2,58 +2,112 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>html</title>
+<title>basic layout</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
 	<style>
-		.leftCol{background-color: cornflowerblue;}
+		header{
+			background-color: cornflowerblue;
+			float: center;
+		}
+		h1{font-family: 'Mynerve', cursive;
 		
-		#NameOfSole{color:chartreuse;}
+		}
+		body{
+			background-image:url("image/backgroundgraphic.png");
+			background-repeat: repeat;
+		}
+		nav{
+			width:100%;
+			height:75px;
+			background-color: burlywood;
+			
+		}
+			
+		.container{
+			width:800px;
+			height:100px;
+		background-color: darkorchid;
+			margin:0 auto;}
+			header{
+				width: 785px;
+				height: 100px;
+				background-color: violet;
+		
+		}
+		
+		section{
+			width: 815px;
+			height: 237px;
+			margin-top: 20px;
+			padding-bottom: 15px;
+			background-color: goldenrod;
+			float:right; 
+			
+		}
+			
+		article{
+			width:245px;
+			height:210px;
+			background-color: indianred;
+			float:left;
+			margin: 20px 0px 20px 20px;
+			
+		}
+		
+		
+		footer{
+			width: 815px;
+			height: 95px;
+			background-color: darkred;
+			clear:both;
+			float: right;
+		}
+	
+		aside{
+			width: 200px;
+			height: 150px;
+			background-color: deeppink;
+			float: center;
+			
+		}
+	
+	
+	
+	
+	
+	
 	
 	</style>
 	
-	
 </head>
-<body>
-	<h1>Playstation Vs Xbox sales</h1>
-	<table style="width:60%; border: thin solid; ">
-		
-	<tr align="left">
-		<th>Playstation/Xbox</th>
-		<th>Launch Sales</th>
-		<th>Sales after two years</th>
-	</tr>
-	
-	<tr>
-		<td class="leftCol"><a href="https://vgsales.fandom.com/wiki/PlayStation_4">Playstation 4 </a></td>
-		<td>10 Million Units</td>
-		<td>30.2 Million Units</td>
-	</tr>
-	<tr>
-		<td class="leftCol" >Playstaion 5</td>
-		<td>7.8 Million Units</td>
-		<td>30 Million Units</td>
-	</tr>
-	<tr>
-		<td class="leftCol"><a href="https://vgsales.fandom.com/wiki/Xbox_One">Xbox One </a></td>
-		<td>3 Million units</td>
-		<td>17 Million Units</td>
-	</tr>
-	<tr>
-		<td class="leftCol"> Xbox Series X</td>
-		<td>9.32 Million Units</td>
-		<td>14.6 Million Units</td>
-	</tr>
-</table>
-	<h2 id="NameOfSole">The Playstation and Xbox</h2>
-		<ul>
-			<li>Playstation 4 and 5</li>
-			<li>Xbox One and Series X</li>
-	</ul>
-			<img src="image/playstation2.jpeg" alt="playstation" width="500" height="230" >
-			<img src="image/xbox2.jpeg" alt="xbox" width="500" height="230" >
-			<i title="These are the" style=>These are the consoles I am talking about</i>
-	<a href="index1.html">Games for Playstation and Xbox</a>
 
+<body>
+	<nav></nav>
+	<div class="container">
+		<header><h1>Hello welcome to my website</h1>
+		</header>
+			<section>
+			<article class="right"></article>
+				<article class="center">
+				<p>&#128512;</p>
+				</article>
+				<article class="left"></article>
+				
+			</section>
 		
+			<section>
+			<article class="right"></article>
+				<article class="center">
+				<p>&#8706;</p>
+				</article>
+				<article class="left"></article>
 			
+		
+		</section>
+	
+	<footer><h1>This is the footer of my webpage</h1></footer>
+	</div>
 </body>
 </html>

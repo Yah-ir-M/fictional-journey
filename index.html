@@ -2,80 +2,71 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>basic layout</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100&family=Mynerve&display=swap" rel="stylesheet">
+<title></title>
+<link href="assignmentflexbox.css" rel="stylesheet" type="text/css">
+<style media="screen">
+*{
+	box-sizing: border-box;}
+.container{
+	width:1020px;
+	margin:10px 0 10px 0 auto;
+	
+}
 
-	<style></style>
-	<link href="main.css" rel="stylesheet" type="text/css">
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: stretch;
+	background-color: brown;
 	
-	<style>
-	
-		h2{font-family: 'Mynerve', cursive;}
-	
-	</style>
+}
+.flex-container > div {
+	background-color: burlywood;
+	color: black;
+	margin: 10px;
+	font-size: 15px;
+	padding: 0 10px 0 10px;
+}
+header{
+	width: 100%;
+	height: 30px;
+	background-color: coral;
+	align-content: center;
+}
+footer{
+	width: 100%;
+	height: 30px;
+	background-color: darksalmon;	
+}
+nav{
+	width: 111%;
+	height: 30px;
+	margin: 10px 0 10px 0;
+	padding-top: 10px;
+	background-color: khaki;
+}	
+div{
+	width: 100%;
+	background-color: goldenrod;
+}
+	@media (max-width: 1019px){
+		.container{width:90%;}
+		
+		.makeMeStack{
+			flex:100%;
+		}
+	}
+</style>
 </head>
-
 <body>
-	<nav></nav>
-	<div class="container">
-		<header><h1>Hello welcome to my website</h1>
-		</header>
-			<section>
-			<article class="right"></article>
-				<article class="center">
-				<p>&#128512;</p>
-				</article>
-				<article class="left"></article>
-				
-			</section>
-		
-			<section>
-			<article class="right"></article>
-				<article class="center">
-				<p>&#8706;</p>
-				</article>
-				<article class="left"></article>
-			
-	
-		</section>
-		
-		<h2>Please Provide the Following Information</h2>
-		
-		<form action="" >
-				
-		<label for="Last">Last Name:</label>
-			<input type="text" id="Last"><br>
-			<button type="Submit">Submit</button>
-			
-			
-			
-				</form>
-		
-		<form action="" >
-			
-		<label for="Birth Month">Birth Month</label>
-			<input type="month" id="Birth Month"><br>
-			<button type="submit">submit</button>
-		
-		
-			</form>
-		
-		<form action="">
-		
-		<label for="Email">Email</label>
-			<input type="email" id="Email"><br>
-			<button type="submit">submit</button>
-		
-			</form>
-		
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/qSHfGXdL6pI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		
-	<footer><h1>This is the footer of my webpage</h1></footer>
+	<header>This is my Header flexbox</header>
+<div class="flex-container">
+	<nav>Hello</nav>
+	<div class="MakeMeStack" style="flex-grow: 1">1</div>
+	<div class="MakeMeStack" style="flex-grow: 1">2</div>
+	<div class="MakeMeStack" style="flex-grow: 1">3</div>
+	<div class="MakeMeStack" style="flex-grow: 1">4</div>
 	</div>
+	<footer>This is the Footer of my Flexbox</footer>
 </body>
 </html>
